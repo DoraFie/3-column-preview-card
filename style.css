@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+
+.container {
+  display: flex;
+  width: 70%;
+  margin: 9% auto;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.sedans,
+.suvs,
+.luxury {
+  padding: 5%;
+}
+
+body {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend deca", sans-serif;
+  font-weight: 400;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 2% 5%;
+  border-radius: 50px;
+  border: none;
+}
+
+.btn-sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.info {
+  margin-bottom: 20%;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .sedans,
+  .suvs,
+  .luxury {
+    padding: 7%;
+  }
+  body {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+}
